@@ -1,11 +1,14 @@
 body {
-    background-color: rgb(27, 24, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0; 
 }
+img {
+    width: 50px;  
 
-
-#topImage {
-    display: block;
-    margin: 0 auto; 
-    width: 50%; 
-    height: auto; 
+h3 {
+    font-size: 14px;
+}
 }

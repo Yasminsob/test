@@ -1,0 +1,176 @@
+body {
+    background-color: rgb(254, 206, 213);  
+    color: #fbfbfb;  
+    font-size: 13px;  
+    margin: 0;  
+    padding: 10px;  
+    height: 100vh;  
+    position: relative;  
+}
+
+.container {
+    width: 60%;  
+    height: 100%;  
+    position: relative;  
+}
+
+.link-item {
+    position: absolute;  
+    display: block;  
+}
+
+.link-item a {
+    text-decoration: none;  
+    color: inherit;  
+}
+
+.link-item a img {
+    width: 60px;  
+    display: block;  
+}
+
+
+.joystick {
+    top: 50px;  
+    left: 20px;  
+}
+
+.monster {
+    top: 300px;  
+    right: 20px;  
+}
+
+
+.cadoman {
+    bottom: 50px;  
+    left: 50%;     
+    transform: translateX(-50%); /* offset by half of its own width to center */
+    position: absolute; 
+}
+
+.cadoman a {
+    display: block;  
+    text-align: center;  
+    width: 150px;  
+}
+
+.cadoman a img {
+    width: 150px;  
+    height: auto;  
+    display: block;  
+}
+
+.cadoman .caption {
+    text-align: center;  
+    margin-top: -40px; 
+    color: #ffffff;  
+    font-size: 13px;  
+}
+
+.bottles {
+    top: 30px;
+    right: 30px;
+}
+
+.lost {
+    top: 400px;  
+    right: 350px;  
+    transform: translateX(-50%); 
+    position: absolute; 
+}
+
+.lost a {
+    display: block;  
+    text-align: center;  
+    width: 150px;  
+}
+
+.lost a img {
+    width: 150px;  
+    height: auto;  
+    display: block;  
+}
+
+.lost .caption {
+    text-align: center;  
+    margin-top: -30px; 
+    color: #ffffff;  
+    font-size: 13px;  
+}
+
+.oven {
+    top: 400px;  
+    left: 850px;  
+    transform: translateX(-50%); 
+    position: absolute; 
+}
+
+.oven a {
+    display: block;  
+    text-align: center;  
+    width: 130px;  
+}
+
+.oven a img {
+    width: 130px;  
+    height: auto;  
+    display: block;  
+}
+
+.oven .caption {
+    text-align: center;  
+    margin-top: -30px; 
+    color: #ffffff;  
+    font-size: 13px;  
+}
+
+.illusion {
+    top: 180px;  
+    right: 280px;  
+    transform: translateX(-50%); 
+    position: absolute; 
+}
+
+.illusion a {
+    display: block;  
+    text-align: center;  
+    width: 130px;  
+}
+
+.illusion a img {
+    width: 130px;  
+    height: auto;  
+    display: block;  
+}
+
+.illusion .caption {
+    text-align: center;  
+    margin-top: -30px; 
+    color: #ffffff;  
+    font-size: 13px;  
+}
+
+.me {
+    top: 680px;  
+    left: 1300px;  
+    transform: translateX(-50%); 
+    position: absolute; 
+}
+
+.me a {
+    display: block;  
+    text-align: center;  
+    width: 130px;  
+}
+
+.me a img {
+    height: auto;  
+    display: block;  
+}
+
+.me .caption {
+    text-align: top;  
+    margin-top: -70px; 
+    color: #ffffff;  
+    font-size: 13px;  
+}
